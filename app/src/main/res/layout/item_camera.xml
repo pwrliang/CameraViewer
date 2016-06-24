@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal">
+    <CheckBox
+        android:id="@+id/ic_cb_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ic_tv_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@android:style/TextAppearance.Medium"
+            android:textColor="@android:color/black"/>
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/ic_tv_note"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="@android:style/TextAppearance.Small"
+                android:textColor="@android:color/black"/>
+            <View android:layout_width="0dp"
+                  android:layout_height="0dp"
+                  android:layout_weight="1"/>
+            <Switch
+                android:id="@+id/ic_sw_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="false"
+                android:text="直连"
+                android:textAppearance="@android:style/TextAppearance.Small"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

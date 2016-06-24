@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CameraViewer</string>
+    <string name="add_camera">添加摄像头</string>
+    <string name="exit">退出</string>
+    <string name="multi_camera">多路摄像</string>
+    <string name="add_camera_scan_qr">扫码添加</string>
+    <string name="play_recorder">录像回放</string>
+    <string name="activity_title_video_playback">录像回放</string>
+    <string name="activity_title_select_file">选择文件</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

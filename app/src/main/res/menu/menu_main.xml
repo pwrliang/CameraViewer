@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="com.yjm.myapplication.MainActivity">
+    <item
+        android:id="@+id/action_update_camera"
+        android:orderInCategory="100"
+        android:title="修改配置"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_del_camera"
+        android:orderInCategory="100"
+        android:title="删除相机"
+        app:showAsAction="never"/>
+</menu>

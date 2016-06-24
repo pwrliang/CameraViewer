@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="添加摄像头" />
+        <item
+            android:id="@+id/nav_scan_qr"
+            android:icon="@drawable/ic_scan_qr"
+            android:title="扫码添加" />
+        <item
+            android:id="@+id/nav_playback"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="录像回放" />
+        <item
+            android:id="@+id/nav_multi_monitor"
+            android:icon="@drawable/ic_people"
+            android:title="多路摄像" />
+    </group>
+
+    <item android:title="沟通">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="应用分享" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="反馈" />
+        </menu>
+    </item>
+
+</menu>

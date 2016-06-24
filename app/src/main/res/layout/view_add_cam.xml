@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin">
+
+    <EditText
+        android:id="@+id/vac_edt_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入IP地址"
+        android:singleLine="true"
+        android:text="192.168.137.1"/>
+
+    <EditText
+        android:id="@+id/vac_edt_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入端口号"
+        android:inputType="number"
+        android:singleLine="true"
+        android:text="1234"/>
+
+    <EditText
+        android:id="@+id/vac_edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:text="no password"/>
+    <EditText
+        android:id="@+id/vac_edt_android_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="设备id"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/vac_edt_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入备注（可选）"
+        android:singleLine="true"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/vac_rb_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="一个摄像头"/>
+
+        <RadioButton
+            android:id="@+id/vac_rb_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="两个摄像头"/>
+    </RadioGroup>
+</LinearLayout>
