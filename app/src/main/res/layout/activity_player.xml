@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.yjm.cameraviewer.activities.PlayerActivity">
+    tools:context="com.gl.cameraviewer.activities.PlayerActivity">
     <SurfaceView
         android:id="@+id/ap_surfaceview"
         android:layout_width="match_parent"

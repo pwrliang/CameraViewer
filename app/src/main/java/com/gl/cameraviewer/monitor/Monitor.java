@@ -1,8 +1,8 @@
-package com.yjm.cameraviewer.monitor;
+package com.gl.cameraviewer.monitor;
 
 import android.util.Log;
 
-import com.yjm.shared.Data;
+import com.gl.shared.Data;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -12,7 +12,7 @@ import java.net.Socket;
 import java.net.SocketAddress;
 
 /**
- * Created by YJM on 2016/4/5.
+ * Created by Liang on 2016/4/5.
  */
 public class Monitor {
     private String TAG = "Monitor";
@@ -52,7 +52,7 @@ public class Monitor {
         return flag;
     }
 
-    public void startMonitor(IMonitor iMonitor) {
+    public void startMonitor(com.gl.cameraviewer.monitor.IMonitor iMonitor) {
         Data data = new Data(mCamId, mPassword);//请求启动摄像头
         mRunning = true;
         try {
@@ -85,7 +85,7 @@ public class Monitor {
         }
     }
 
-    protected void receiveCommand(InputStream inputStream, IMonitor iMonitor) {
+    protected void receiveCommand(InputStream inputStream, com.gl.cameraviewer.monitor.IMonitor iMonitor) {
         while (mRunning) {
             try {
                 if (inputStream.available() == 0) {

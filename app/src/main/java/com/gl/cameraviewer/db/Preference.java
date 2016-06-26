@@ -1,4 +1,4 @@
-package com.yjm.cameraviewer.db;
+package com.gl.cameraviewer.db;
 
 import android.content.Context;
 import android.content.SharedPreferences;

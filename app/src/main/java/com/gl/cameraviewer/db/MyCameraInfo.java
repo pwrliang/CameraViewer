@@ -1,9 +1,9 @@
-package com.yjm.cameraviewer.db;
+package com.gl.cameraviewer.db;
 
 import java.io.Serializable;
 
 /**
- * Created by YJM on 2016/4/5.
+ * Created by Liang on 2016/4/5.
  */
 public class MyCameraInfo implements Serializable {
     public static final int TYPE_DIRECT = 0;

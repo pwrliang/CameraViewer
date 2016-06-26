@@ -1,4 +1,4 @@
-package com.yjm.shared;
+package com.gl.shared;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

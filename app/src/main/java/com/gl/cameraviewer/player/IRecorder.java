@@ -1,9 +1,9 @@
-package com.yjm.cameraviewer.player;
+package com.gl.cameraviewer.player;
 
 import android.graphics.Bitmap;
 
 /**
- * Created by YJM on 2016/5/5.
+ * Created by Liang on 2016/5/5.
  */
 public interface IRecorder {
     void onRender(Bitmap bitmap,int framePosition);

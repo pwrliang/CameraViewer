@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.yjm.cameraviewer.activities.SelectFileActivity">
+    tools:context="com.gl.cameraviewer.activities.SelectFileActivity">
     <android.support.design.widget.AppBarLayout
         android:id="@+id/asf_bar"
         android:layout_width="match_parent"

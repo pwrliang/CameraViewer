@@ -1,4 +1,4 @@
-package com.yjm.cameraviewer.activities;
+package com.gl.cameraviewer.activities;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -34,9 +34,9 @@ import android.widget.Toast;
 
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
-import com.yjm.cameraviewer.R;
-import com.yjm.cameraviewer.db.MyCameraDB;
-import com.yjm.cameraviewer.db.MyCameraInfo;
+import com.gl.cameraviewer.R;
+import com.gl.cameraviewer.db.MyCameraDB;
+import com.gl.cameraviewer.db.MyCameraInfo;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -52,7 +52,7 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeMessage;
 
 /**
- * Created by YJM on 2016/4/5.
+ * Created by Liang on 2016/4/5.
  */
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
     private MyAdapter myAdapter;
@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             @Override
             public void onItemClick(AdapterView<?> parent, View view, final int position, long id) {
                 MyCameraInfo myCameraInfo =  mCameraList.get(position);
-                Intent intent = new Intent(MainActivity.this, MonitorActivity.class);
+                Intent intent = new Intent(MainActivity.this, com.gl.cameraviewer.activities.MonitorActivity.class);
                 intent.putExtra("MyCamera", myCameraInfo);
                 startActivity(intent);
             }
@@ -352,10 +352,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         } else if (id == R.id.nav_scan_qr) {
             new IntentIntegrator(this).initiateScan();
         } else if (id == R.id.nav_playback) {
-            Intent intent = new Intent(this, SelectFileActivity.class);
+            Intent intent = new Intent(this, com.gl.cameraviewer.activities.SelectFileActivity.class);
             startActivity(intent);
         } else if (id == R.id.nav_multi_monitor) {
-            Intent intent = new Intent(this, MultiMonitorActivity.class);
+            Intent intent = new Intent(this, com.gl.cameraviewer.activities.MultiMonitorActivity.class);
             ArrayList<MyCameraInfo> checkedCameraList = new ArrayList<>();
             for (MyCameraInfo myCamera : mCameraList) {
                 if (myCamera.isChecked()) {

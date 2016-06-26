@@ -1,4 +1,4 @@
-package com.yjm.cameraviewer.activities;
+package com.gl.cameraviewer.activities;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -13,7 +13,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import com.yjm.cameraviewer.R;
+import com.gl.cameraviewer.R;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -40,7 +40,7 @@ public class SelectFileActivity extends AppCompatActivity {
         mListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Intent intent = new Intent(SelectFileActivity.this, PlayerActivity.class);
+                Intent intent = new Intent(SelectFileActivity.this, com.gl.cameraviewer.activities.PlayerActivity.class);
                 intent.putExtra("path", mVideoFiles.get(position).getAbsolutePath());
                 startActivity(intent);
             }

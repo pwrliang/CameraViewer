@@ -1,8 +1,8 @@
-package com.yjm.cameraviewer.monitor;
+package com.gl.cameraviewer.monitor;
 
 import android.util.Log;
 
-import com.yjm.shared.Data;
+import com.gl.shared.Data;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -14,7 +14,7 @@ import java.net.SocketAddress;
 /**
  * Created by Liang on 2016/5/24.
  */
-public class MonitorEx extends Monitor {
+public class MonitorEx extends com.gl.cameraviewer.monitor.Monitor {
     private String TAG = "MonitorEx";
     private Socket mSocket;
     private InputStream mInputStream;
@@ -42,7 +42,7 @@ public class MonitorEx extends Monitor {
         Log.i(TAG,"连接服务器成功");
     }
 
-    public void startMonitor(IMonitor iMonitor) {
+    public void startMonitor(com.gl.cameraviewer.monitor.IMonitor iMonitor) {
         Data data = new Data(mCamId, mPassword);//请求启动摄像头
         mRunning = true;
         try {

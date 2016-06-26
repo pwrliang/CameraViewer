@@ -1,4 +1,4 @@
-package com.yjm.cameraviewer.player;
+package com.gl.cameraviewer.player;
 
 import android.graphics.Bitmap;
 

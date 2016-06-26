@@ -1,4 +1,4 @@
-package com.yjm.cameraviewer.db;
+package com.gl.cameraviewer.db;
 
 import android.content.Context;
 import android.database.Cursor;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by YJM on 2016/4/6.
+ * Created by Liang on 2016/4/6.
  */
 public class MyCameraDB {
     private static MyCameraDB myCameraDB;

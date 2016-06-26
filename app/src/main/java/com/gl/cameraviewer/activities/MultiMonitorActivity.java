@@ -1,4 +1,4 @@
-package com.yjm.cameraviewer.activities;
+package com.gl.cameraviewer.activities;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
@@ -16,13 +16,13 @@ import android.view.SurfaceView;
 import android.view.WindowManager;
 import android.widget.Toast;
 
-import com.yjm.cameraviewer.R;
-import com.yjm.cameraviewer.db.MyCameraInfo;
-import com.yjm.cameraviewer.db.Preference;
-import com.yjm.cameraviewer.monitor.IMonitor;
-import com.yjm.cameraviewer.monitor.Monitor;
-import com.yjm.cameraviewer.monitor.MonitorEx;
-import com.yjm.shared.Data;
+import com.gl.cameraviewer.R;
+import com.gl.cameraviewer.db.MyCameraInfo;
+import com.gl.cameraviewer.db.Preference;
+import com.gl.cameraviewer.monitor.IMonitor;
+import com.gl.cameraviewer.monitor.Monitor;
+import com.gl.cameraviewer.monitor.MonitorEx;
+import com.gl.shared.Data;
 
 import java.io.IOException;
 import java.text.NumberFormat;

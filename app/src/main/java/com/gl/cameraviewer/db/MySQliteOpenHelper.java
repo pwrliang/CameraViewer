@@ -1,11 +1,11 @@
-package com.yjm.cameraviewer.db;
+package com.gl.cameraviewer.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
 /**
- * Created by YJM on 2016/4/6.
+ * Created by Liang on 2016/4/6.
  */
 public class MySQliteOpenHelper extends SQLiteOpenHelper {
     private final String CREATE_TABLE="CREATE TABLE MyCamera(IP TEXT NOT NULL,PORT INTEGER NOT NULL,PASSWORD TEXT NOT NULL,NOTE TEXT,DEVICE_ID TEXT NOT NULL,CAM_NUMBER INTEGER NOT NULL,TYPE INTEGER NOT NULL,PRIMARY KEY (IP,Port))";

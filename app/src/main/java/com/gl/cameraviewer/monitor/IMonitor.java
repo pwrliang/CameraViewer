@@ -1,7 +1,7 @@
-package com.yjm.cameraviewer.monitor;
+package com.gl.cameraviewer.monitor;
 
 /**
- * Created by YJM on 2016/4/6.
+ * Created by Liang on 2016/4/6.
  */
 public interface IMonitor {
     void errorPassword();

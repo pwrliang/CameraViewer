@@ -1,4 +1,4 @@
-package com.yjm.cameraviewer.activities;
+package com.gl.cameraviewer.activities;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -15,9 +15,9 @@ import android.view.WindowManager;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
-import com.yjm.cameraviewer.R;
-import com.yjm.cameraviewer.player.IRecorder;
-import com.yjm.cameraviewer.player.RecorderPlayer;
+import com.gl.cameraviewer.R;
+import com.gl.cameraviewer.player.IRecorder;
+import com.gl.cameraviewer.player.RecorderPlayer;
 
 import java.io.File;
 import java.io.IOException;
