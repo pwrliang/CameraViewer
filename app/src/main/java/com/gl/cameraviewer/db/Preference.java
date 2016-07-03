@@ -8,7 +8,7 @@ import android.preference.PreferenceManager;
  * Created by Liang on 2016/4/7.
  */
 public class Preference {
-    public static final String SERVER_IP = "104.156.239.35";
+    public static final String SERVER_IP = "43.224.34.90";
     public static final int SERVER_PORT = 3295;
 
     private static Preference preference;
